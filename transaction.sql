@@ -1,4 +1,6 @@
-use transactions;
+create database if not exists transaction;
+
+use transaction;
 CREATE TABLE product( 
    productid CHAR(2) NOT NULL,
    productname VARCHAR(25) NOT NULL,
